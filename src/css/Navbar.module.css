@@ -1,0 +1,123 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: none;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.menuBtn{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+.menuBtn:hover{
+    background-color: #e5e5e5;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoImg{
+    height: auto;
+    width: 100px;
+    
+}
+.navMiddle{
+    display: flex;
+    align-items: center;
+}
+.navMiddle input{
+    height: 40px;
+    width: 500px;
+    padding: 0 15px;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 25px 0 0 25px;
+    
+}
+.searchBtn{
+    height: 40px;
+    width: 60px;
+    border-radius: 0 25px 25px 0;
+    border: 1px solid;
+    border-left: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.searchBtn:hover{
+    background-color: #e5e5e5;
+}
+.micBtn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    
+}
+.micBtn:hover{
+    background-color: #e5e5e5;
+}
+.navRight{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.plusBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+    font-size: medium;
+}
+.plusBtn:hover{
+    background-color: #e5e5e5;
+}
+
+.bellBtn{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.bellBtn:hover{
+    background-color: #e5e5e5;
+}
+.profile{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: black;
+   color:white;
+   cursor: pointer;
+}

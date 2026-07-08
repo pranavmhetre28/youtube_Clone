@@ -1,0 +1,33 @@
+.subNav{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: solid;
+    height: 400px;
+    width: 120px;
+}
+.subNav p{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    cursor: pointer;
+}
+.home:hover{
+    background-color: #e5e5e5;
+}
+.Shorts{
+    cursor: pointer;
+}
+.Subscrip{
+    cursor: pointer;
+}
+.You{
+    cursor: pointer;
+}
